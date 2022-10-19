@@ -1,0 +1,26 @@
+<!--
+    <p>studentcurd works!</p>
+-->
+<div class="container">
+<div class="row">
+
+<div class="form-group col-md-6">
+    <input type="text" class="form-control"  placeholder="Enter name" [(ngModel)]="cs.s.name">
+</div>
+<div class="form-group col-md-6">
+    <input type="text" class="form-control"  placeholder="Address" [(ngModel)]="cs.s.address">
+</div>
+
+</div>
+
+
+
+<div class="form-group"> 
+    <button class="btn btn-success btn-lg btn-block" (click)="submitData(cs.s)">Submit</button>
+</div>
+<!----
+<div class="form-group"> 
+    <button class="btn btn-warning btn-lg btn-block" (click)="resetdata()">reset</button>
+</div>
+-->
+</div>
